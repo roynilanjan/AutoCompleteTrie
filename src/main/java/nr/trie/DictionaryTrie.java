@@ -21,9 +21,7 @@ public class DictionaryTrie implements Dictionary {
 	}
 
 	/**
-	 * Insert a word into the trie. For the basic part of the assignment (part
-	 * 2), you should ignore the word's case. That is, you should convert the
-	 * string to all lower case as you insert it.
+	 * Insert a word into the trie. 
 	 */
 	public boolean addWord(String word) {
 		if (word.length() == 0 || word == null)
