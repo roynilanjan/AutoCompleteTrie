@@ -85,7 +85,7 @@ public class DictionaryTrie implements Dictionary {
 	//@Override
 	public List<String> predictCompletions(String prefix, int numCompletions) {
 		// TODO: Implement this method
-		// This method should implement the following algorithm:
+		// This method  implements the following algorithm:
 		// 1. Find the stem in the trie. If the stem does not appear in the
 		// trie, return an empty list
 		// 2. Once the stem is found, perform a breadth first search to generate
